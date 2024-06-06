@@ -135,6 +135,72 @@ const tweet1 = {
 const fruits =["apple","banana", "mango"];
 console.log(fruits[0])
 
+//Functions
+//Defining functions
+
+function login(username, password) {
+  if (username == 'mickeymond' &&password == '1234'){
+     return 'User is logged in!';
+  } else if (username != 'mickeymond') {
+    return 'Invalid user name';
+  } else if (password != '1234'){
+         return 'Invaild password';    
+             } else {
+    return 'Invalid username or password!';
+  }
+ } 
+ 
+ //Invoking Functions
+ login('mickeymond', '1234');
+ 
+ //Basic Arithmetic
+ //Addition
+ 12 + 24;
+ 
+ //Substraction
+ 12-34;
+ 
+ //Multiplication
+ 12*34;
+ 
+ //Division
+ 32/12;
+ 
+ //Modulo
+ 78 % 4 ;
+ 
+ //Comparsion Operators (USE IN IF OR FOR LOOPS)
+ 2 === 2; //STRICTLY equality qdXDDE1USE
+ 
+ 3 !== 2;//STRICTLY NON-EQUALITY
+ 
+ // Built-in Math Functions
+ Math.round(37/23);
+ Math.floor(37/24); //run down
+ Math.ceil(37/24); //
+ Math.random();//random number generator
+ Math.max(12, 14, 89);
+ 
+ Math.ceil(Math.random() * 1000000);
+ 
+ 
+ //Order Of Operations
+ 2 * 1 + 3 - 4 / 3 % 2 ** 2;
+ 
+ //Handling User Inputs
+ 1200 + Number('250');//use this for input
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
   
   
