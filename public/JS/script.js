@@ -189,6 +189,29 @@ function login(username, password) {
  
  //Handling User Inputs
  1200 + Number('250');//use this for input
+
+ //String Concatenation
+const firstname = 'Caroline';
+const lastname = 'Mortty';
+firstname.trim() + ' ' + lastname.trim();
+
+
+// Templates Literals
+`${firstname.trim()} ${lastname.trim()}`;
+
+
+//String Methods
+firstname.length;
+lastname.length;
+
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim()+ ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(0);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+//String Conversion
+String(2014);
  
  
  
