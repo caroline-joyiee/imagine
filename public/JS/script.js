@@ -213,6 +213,41 @@ lastname.charAt(0);
 //String Conversion
 String(2014);
  
+//Write a function that will add apaticipant to our Google Classroom
+
+
+const participants = [];
+
+
+function addParticipant(email) {
+  //check if email was provided
+  //if(email === null || email === undefined)
+  if(!email){
+    return 'email not provided!'
+  }
+  //check if email is valid
+  if (!email.includes('@')){
+    return 'Invalid email provided'
+  }
+  //add email to the participants
+  participants.push(email);
+  
+  //Notify them via email
+  //return response
+  return 'Participant added!'
+}
+addParticipant('mickeymond@yahoo.com');
+
+//Arrays in Javascript
+const alphabets = ['a', 'b', 'c', 'd'];
+alphabets;
+alphabets.join(' ');
+alphabets.join(' ').split (' ');
+
+
+
+
+
  
  
  
