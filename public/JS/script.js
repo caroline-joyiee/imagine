@@ -247,6 +247,75 @@ alphabets.join(' ').split (' ');
 
 
 
+//Write a function that will take firstname, lastname and return fullname
+function fullName(firstname,lastname){
+  return firstname + ' ' + lastname;
+  
+}
+
+const firstname = 'Joy';
+const lastname = 'Caroline';
+console.log(firstname ,lastname);
+
+//Write a function that will take user with firstname, lastname and return fullname
+const user = {
+  firstname: 'Joe',
+  lastname: 'Ganner'
+}
+function fullname(user){
+  return {
+    //spread... gives more details of your function
+    ...user,
+    fullname: `${user.firstname} ${user.lastname}`
+  }
+}
+
+fullname(user);
+
+//Array map
+const users = [
+  {firstname: 'Linda', lastname:'Parker'},
+  {firstname:'Mark', lastname:'Twaine'},
+  {firstname:'Oliver', lastname: 'Queen'},
+  {firstname:'Stephen', lastname: 'Grider'},
+  {firstname:'Elon', lastname: 'Musk'}
+  
+]
+//use array map when using many objects
+users.map(fullname);
+
+//Map and return squares of numbers
+function square(number){
+  return number ** 2;
+}
+const numbers =[0,1,2,3,4,5]
+numbers.map(square);
+
+//Filter and return even numbers
+
+function even(number){
+  return number % 2 === 0;
+}
+
+//map will not reduce the lenght of the array but filter will
+numbers.filter(even);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
  
