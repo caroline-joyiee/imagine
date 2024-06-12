@@ -303,10 +303,10 @@ numbers.filter(even);
 
 //Objects in JavaScript
 //Write a function that takes a user with name and dateOfBirth and returns true if their birthday is today else false
-const user ={
-  name:'Martin King',
-  dateOfBirth: '1990-06-12'
-}
+// const user ={
+//   name:'Martin King',
+//   dateOfBirth: '1990-06-12'
+// }
 function users (name, dateOfbirth){
  return users;
 } 
@@ -331,6 +331,7 @@ function isBirthday (user){
   }
  
 }
+
 isBirthday(user);
 
 
