@@ -301,6 +301,57 @@ function even(number){
 numbers.filter(even);
 
 
+//Objects in JavaScript
+//Write a function that takes a user with name and dateOfBirth and returns true if their birthday is today else false
+const user ={
+  name:'Martin King',
+  dateOfBirth: '1990-06-12'
+}
+function users (name, dateOfbirth){
+ return users;
+} 
+if(users == name && user == dateOfBirth){
+  "true";
+}else{
+  "false";
+}
+
+
+//another try
+function isBirthday (user){
+  const today = new Date();
+  const birthDate = new Date(user.dateOfBirth);
+  // console.log(birthDate.getMonth(), today.getMonth());
+  // console.log(birthDate.getDate(), today.getDate());
+  
+  if (today.getMonth() === birthDate.getMonth() && today.getDate() === birthDate.getDate()){   
+       return true;
+      }else{
+    return false;
+  }
+ 
+}
+isBirthday(user);
+
+
+
+// Write a function that takes a user with name and dateOfBirth and  returns birthday with their birthday is today else returnyour day
+
+function yourDay(){
+  if (isBirthday){
+    // return "Happy Birthday" + ' ' + user.name
+    return `Happy Birthday, ${user.name}`;
+  }else{
+    return "Its not your day"
+  }
+  
+  
+  
+}
+
+yourDay();
+
+
 
 
 
